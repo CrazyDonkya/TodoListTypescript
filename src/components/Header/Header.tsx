@@ -3,14 +3,14 @@ import "./Header.scss"
 
 
 interface HeaderProps{
-    todoCount:number;
+    noteCount:number;
 }
 
-export const Header: React.FC<HeaderProps> = ({todoCount}) => {
+export const Header: React.FC<HeaderProps> = ({noteCount: nodeCount}) => {
     return(
         <div className="header">
             <div className="header_title">
-                Todolist: <b>{todoCount}</b>
+                Notelist: <b>{nodeCount}</b>
             </div>
         </div>
     )

@@ -1,6 +1,5 @@
-export type Todo = {
-    id:number;
-    name:string;
-    description:string;
-    checked:boolean;
-  };
+export type Note = {
+  id:number;
+  name:string;
+  description:string;
+};
